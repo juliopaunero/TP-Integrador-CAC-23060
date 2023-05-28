@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+p{
+    margin-bottom: 0;
+}
+.cabecera{
+    background-color:#383e42;
+    width: 100%;
+    clear: both;
+    content: ''; 
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    display: block;
+    
+}
+#containermenu {
+    width: 100%;
+    padding-right: 10px;
+}
+.logo{
+    width: 120px;
+    height: auto;
+    float: left;   
+}
+.navheader {
+    float: right;
+}
+
+nav ul li {
+    margin-top: 25px;
+    list-style: none;
+    margin-left: 10px;
+    float: left;
+}
+div a {
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding: auto;
+    
+}
+div a h2 {
+    margin-top: 20px;
+}
+.comprar {
+    color: #299844;
+}
+
+.contenedor{
+    top: 70px;
+    position: relative;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div1{   
+    margin: 4px; 
+    border: 1px solid rgb(26, 7, 195);
+    
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    
+}
+.div2{    
+    margin: 4px; 
+    border: 1px solid rgb(122, 214, 250);
+    
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    
+
+}
+.div3{    
+    margin: 4px; 
+    border: 1px solid rgb(80, 222, 4);
+    
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+.div4{
+    display: block;
+}
+.presentardocu{
+    color: rgb(76, 76, 76);
+}
+
+input, select {
+    border: 1px solid rgb(152, 152, 152);
+    border-radius: 4.5px;
+}
+
+.formulario{
+    margin: 90px auto;
+    display: block;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+.form{
+    
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+
+
+#nombre{
+    margin: 0;
+    width: 49.5%;
+    
+}
+#apellido{
+    margin: 0;
+    width: 49.5%;
+    
+}
+#correo{
+    margin-top: 10px;
+    width: 100%;  
+}
+select{
+    width: 100%;   
+}
+
+.contenedorcategoria{
+    margin-top: 10px;
+   display: inline-block;
+   width: 49.5%;    
+}
+.contenedorcantidad{
+    display: inline-block;
+    width: 49.5%;     
+}
+#cantidadEntradas{
+    width: 100%;    
+}
+
+#resultado{
+    margin-top: 15px;
+    /*border: 1px solid rgb(152, 152, 152);*/
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgb(194, 221, 255);
+    color: rgb(18, 67,159);
+    
+}
+#borrar{
+    margin-top: 15px;
+    width: 49.5%;
+    background-color: rgb(135, 193, 48);
+    border: none;
+    color: white;
+}
+#resumen{
+    margin-top: 15px;
+    width: 49.5%;
+    background-color:  rgb(135, 193, 48);
+    color: white;
+    border: none;
+    
+}
+.dos{
+    display: inline-block;
+    
+    background-color: rgb(68, 146, 215);
+    width: auto;
+    height: auto;
+}
+.footer{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    width: 100vw;
+    display: block;
+    background: rgb(44,41,89);
+    background: linear-gradient(90deg, rgba(44,41,89,1) 0%, rgba(61,61,149,1) 2%, rgba(11,112,133,1) 100%);
+    height: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
+.botonesfooter{
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
